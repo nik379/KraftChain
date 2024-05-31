@@ -154,12 +154,12 @@ function Navbar() {
                 </li>
               )}
               <li>
-                {/* <button
+                <button
                   className="enableEthereumButton bg-[#296f71] hover:bg-[#2fb1b5] text-white font-bold py-2 px-4 rounded text-sm"
                   onClick={connectWallet}
                 >
                   {connected ? "Connected" : "Connect"}
-                </button> */}
+                </button>
               </li>
             </ul>
           </li>
